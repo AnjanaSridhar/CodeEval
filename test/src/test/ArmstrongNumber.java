@@ -1,4 +1,4 @@
-package CodeEval;
+package test;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class CleanUpTheWords {
+public class ArmstrongNumber {
 
 	public static void main (String[] args) {
 		//File file = new File(args[0]);
@@ -25,7 +25,7 @@ public class CleanUpTheWords {
 				if (lineArray.length > 0) {
 					//Process line of input Here
 					for(int i=0; i<lineArray.length; i++){
-						cleanUpTheWords(lineArray[i]);
+						checkIfArmstrong(lineArray[i]);
 					}
 				}
 			}	
@@ -36,22 +36,20 @@ public class CleanUpTheWords {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-}
 
-	private static void cleanUpTheWords(String string) {
+	}
+	private static void checkIfArmstrong(String string) {
 		// TODO Auto-generated method stub
-		String end = "";
+		int pow = string.length();
+		double sum =0;
 		for(int i=0; i<string.length(); i++){
-			if(Character.isAlphabetic(string.charAt(i))){
-				end = end+string.charAt(i);
-			}
-			else{
-				end = end+" ";
-			}
+			sum = sum+Math.pow(Integer.valueOf(string.charAt(i)+""), pow);
 		}
-		end = end.replaceAll("\\s+", " ");
-		end = end.trim();
-		end = end.toLowerCase();
-		System.out.println(end);
+		if(Integer.valueOf(string)==sum){
+			System.out.println("True");
+		}
+		else{
+			System.out.println("False");
+		}
 	}
 }
