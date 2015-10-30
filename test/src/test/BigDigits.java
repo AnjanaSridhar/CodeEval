@@ -69,12 +69,6 @@ public class BigDigits {
 				System.out.print("-----");
 			}
 		}
-		/*System.out.println(p01+p11+p21+p31+p41+p51+p61+p71+p81+p91);
-		System.out.println(p02+p12+p22+p32+p42+p52+p62+p72+p82+p92);
-		System.out.println(p03+p13+p23+p33+p43+p53+p63+p73+p83+p93);
-		System.out.println(p04+p14+p24+p34+p44+p54+p64+p74+p84+p94);
-		System.out.println(p05+p15+p25+p35+p45+p55+p65+p75+p85+p95);
-		System.out.println("--------------------------------------------------");*/
 	}
 
 	private static String getDigit(char c) {
@@ -94,11 +88,6 @@ public class BigDigits {
 				return "-***-";
 				
 			}
-			/*p11 = "--*--";
-			p12 = "-**--";
-			p13 = "--*--";
-			p14 = "--*--";
-			p15 = "-***-";*/
 			break;
 		case '2':
 			switch(count){
@@ -114,11 +103,6 @@ public class BigDigits {
 				return "****-";
 				
 			}
-			/*p21 = "***--";
-			p22 = "---*-";
-			p23 = "-**--";
-			p24 = "*----";
-			p25 = "****-";*/
 			break;
 		case '3':
 			switch(count){
@@ -134,11 +118,6 @@ public class BigDigits {
 				return "***--";
 				
 			}
-			/*p31 = "***--";
-			p32 = "---*-";
-			p33 = "-**--";
-			p34 = "---*-";
-			p35 = "***--";*/
 			break;
 		case '4':
 			switch(count){
@@ -154,11 +133,6 @@ public class BigDigits {
 				return "---*-";
 				
 			}
-			/*p41 = "-*---";
-			p42 = "*--*-";
-			p43 = "****-";
-			p44 = "---*-";
-			p45 = "---*-";*/
 			break;
 		case '5':
 			switch(count){
@@ -174,11 +148,6 @@ public class BigDigits {
 				return "***--";
 				
 			}
-			/*p51 = "****-";
-			p52 = "*----";
-			p53 = "***--";
-			p54 = "---*-";
-			p55 = "***--";*/
 			break;
 		case '6':
 			switch(count){
@@ -194,11 +163,6 @@ public class BigDigits {
 				return "-**--";
 				
 			}
-			/*p61 = "-**--";
-			p62 = "*----";
-			p63 = "***--";
-			p64 = "*--*-";
-			p65 = "-**--";*/
 			break;
 		case '7':
 			switch(count){
@@ -214,11 +178,6 @@ public class BigDigits {
 				return "-*---";
 				
 			}
-			/*p71 = "****-";
-			p72 = "---*-";
-			p73 = "--*--";
-			p74 = "-*---";
-			p75 = "-*---";*/
 			break;
 		case '8':
 			switch(count){
@@ -234,11 +193,6 @@ public class BigDigits {
 				return "-**--";
 				
 			}
-			/*p81 = "-**--";
-			p82 = "*--*-";
-			p83 = "-**--";
-			p84 = "*--*-";
-			p85 = "-**--";*/
 			break;
 		case '9':
 			switch(count){
@@ -254,11 +208,6 @@ public class BigDigits {
 				return "-**--";
 				
 			}
-			/*p91 = "-**--";
-			p92 = "*--*-";
-			p93 = "-***-";
-			p94 = "---*-";
-			p95 = "-**--";*/
 			break;
 		case '0':
 			switch(count){
@@ -274,11 +223,6 @@ public class BigDigits {
 				return "-**--";
 				
 			}
-			/*p01 = "-**--";
-			p02 = "*--*-";
-			p03 = "*--*-";
-			p04 = "*--*-";
-			p05 = "-**--";*/
 			break;
 			
 		}
