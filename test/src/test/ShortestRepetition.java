@@ -44,9 +44,7 @@ public class ShortestRepetition {
 		String temp="";
 		int count = 0;
 		boolean done = false;
-		//System.out.println("------------------"+string+"  "+string.length());
 		for(int i=0; i<string.length(); i++){
-			//System.out.println(temp+"  "+string.charAt(i)+"  "+i);
 			
 			if(!temp.contains(string.charAt(i)+"")){
 				temp = temp+string.charAt(i);

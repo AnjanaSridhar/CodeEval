@@ -52,7 +52,6 @@ public class MorseCode {
 
 	private static void morseCode(String string) {
 		// TODO Auto-generated method stub
-		//System.out.println(string);
 		
 		String[] strarr1 = string.split(" ");
 		
